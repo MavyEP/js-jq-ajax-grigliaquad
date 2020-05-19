@@ -23,4 +23,19 @@ body {
   background: white;
   float: left;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.number_in_box {
+  font-size: 22px;
 }

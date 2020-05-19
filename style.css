@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: black;
+}
+
+.container_box {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+
+.box {
+  width: calc(800px / 6);
+  height: calc(800px / 6);
+  background: white;
+  float: left;
+  border: 1px solid black;
+}
